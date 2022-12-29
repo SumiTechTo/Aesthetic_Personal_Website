@@ -1,0 +1,153 @@
+body{
+  margin: 0;
+  padding: 0;
+ background-size: cover;
+ 
+color: rgb(41, 66, 49);
+
+ z-index: -100;
+ overflow-x: hidden;
+
+
+}
+a{
+    text-decoration: none;
+    color: rgb(41, 66, 49);
+}
+
+nav{
+    
+   display: flex;
+   
+    position: sticky;
+   margin-left: 35%;
+  
+  
+   
+}
+
+
+.nav_button_container{
+    list-style-type: none;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    
+    /* background-color: aqua; */
+
+   
+}
+.about_me{
+    /* display: flex; */
+    margin-right: 50%;
+    padding: 1% 2% 1% 2%;
+    
+    margin-left: 5%;
+    background-color: rgb(250, 235, 215,0.7);
+    
+    text-align: center;
+    
+}
+.skills{
+    background-color: rgb(250, 235, 215,0.7);
+    margin-left: 60%;
+    margin-right: 3%;
+    text-align: center;
+    position: relative;
+    margin-top: -10%;
+    padding: 1% 6% 2% 2%;
+
+}
+.unordered_skill_list{
+    list-style-type: none;
+}
+.skill_list{
+    background-color: whitesmoke;
+    margin-bottom: 4px;
+    padding: 2%;
+   
+}
+.Writing{
+    background-color: rgb(250, 235, 215,0.7);
+   
+    margin-right: 45%;
+    margin-left: 15%;
+    margin-top: -20%;
+    padding: 2%  4% 2% 2%;
+    
+}
+.write_list{
+    margin-bottom: 10px;
+    
+}
+
+.intro{
+   font-size: 1rem;
+   overflow: hidden;
+   width: 0;
+   border-right: .005rem solid white;
+   display: inline-block;
+   animation: typing 3s  steps(20) forwards;
+   blink 0.8s infinite;
+   white-space: nowrap;
+   /* margin-left: 50%; */
+   background-color: rgb(101, 140, 101);
+   position: absolute;
+   left: 50%;
+  
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 170px }
+  }
+  @keyframes blink {
+    from { border-color: transparent }
+    to { border-color: whitesmoke; }
+  }
+.nav_butons{
+    display: inline;
+    padding: 1.7em;
+    display: flex;
+    top: 2%;
+    background-color: rgb(155, 175, 161,0.6);
+}
+.upper_container{
+/* background-color: antiquewhite; */
+margin-bottom: 17%;
+
+
+
+
+}
+.middle_container{
+    /* background-color: aqua; */
+    position: relative;
+    
+
+}
+.whole{
+    background-color: rgb(155, 175, 161,0.2);
+}
+.lower_container{
+    /* background-color: aqua; */
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: -3%
+}
+/* for SOCIALS */
+
+.social_media{
+    float: left;
+}
+.unordered_socials{
+    list-style-type: none;
+    margin-left: 45%;
+    display: block;
+}
+.sns_link{
+  width: 30px;
+  padding-bottom: 15px;
+
+}
